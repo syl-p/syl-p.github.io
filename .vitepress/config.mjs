@@ -23,7 +23,7 @@ export default defineConfig({
       }
     ],
     footer: {
-      message: 'Made with vuejs, vitepress and love.',
+      message: 'Made with vuejs ❤️',
       copyright: 'Copyright © 2019-present Syl-P'
     },
     search: {

@@ -1,10 +1,12 @@
 ---
-title:  Création d'une Progressive Web App avec Vue.js
+title:  Application progressive météo
 description: Découvrez les technologies et les bonnes pratiques pour développer une application web progressive avec Vue.js.
 img: mockup-pwa-weather.jpg
-client: Websylvain
-role: Intégration et développement web
 link: nolink
+tags: 
+  - vuejs
+  - vuetify
+  - pwa
 listElements:
   - name: Vue.js
     text: Vue.js est un framework JavaScript open source léger et modulaire qui simplifie le développement d'interfaces utilisateur dynamiques.
