@@ -1,26 +1,21 @@
 ---
-title:  Application progressive météo
-description: Découvrez les technologies et les bonnes pratiques pour développer une application web progressive avec Vue.js.
+title: Copie d'un jeu vidéo pour le web
+description: Projet fun dans lequel il est question de s'amuser avec la librairie Threejs et de copier un concept de jeu existant.
 img: mockup-pwa-weather.jpg
-featured: true
 link: https://syl-p.github.io/progressive-weather-app/#/
+featured: true
 tags: 
-  - vuejs
-  - vuetify
-  - pwa
+  - threejs
+  - typescript
+  - 3D
+  - jeux vidéos
 listElements:
-  - name: Vue.js
-    text: Vue.js est un framework JavaScript open source léger et modulaire qui simplifie le développement d'interfaces utilisateur dynamiques.
-    img:  vuejs.jpg
-  - name: Vuex
-    text: Vuex est une librairie permettant de gérer un système centralisé de state pour vos composants, inspirée par la logique Flux.
-    img:  vuex.jpg
-  - name: Webpack
-    text: Webpack est un module bundler indispensable pour le développement d'applications JavaScript, permettant de séparer les ressources en modules indépendants, de les minifier et de préparer une version packagée pour la production.
-    img: webpack.jpg
-  - name: Vuetify
-    text: Vuetify est une bibliothèque de composants réutilisables pour Vue.js, offrant une expérience utilisateur digne des grandes applications de Google grâce à un design minimaliste appelé "Material Design".
-    img: vuetify.jpg
+  - name: Typescript
+    img:  typescript.jpg  
+  - name: Threejs
+    img:  threejs.jpg
+  - name: Tailwind
+    img: tailwind.jpg
 ---
 
 # Application progressive météo
