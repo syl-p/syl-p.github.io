@@ -1,24 +1,24 @@
 ---
-title: Copie d'un jeu vidéo pour le web
+title: Gameplay de base d'un jeu vidéo
 description: Projet fun dans lequel il est question de s'amuser avec la librairie Threejs et de copier un concept de jeu existant.
 img: mockup-pwa-weather.jpg
 link: https://syl-p.github.io/progressive-weather-app/#/
-featured: true
-tags: 
+tags:
   - threejs
   - typescript
   - 3D
   - jeux vidéos
 listElements:
   - name: Typescript
-    img:  typescript.jpg  
+    img: typescript.jpg
   - name: Threejs
-    img:  threejs.jpg
+    img: threejs.jpg
   - name: Tailwind
     img: tailwind.jpg
 ---
 
 # Application progressive météo
+
 Il s'agit d'un concept d'application illustrant les notions abordées pendant une formation Vuejs lorsque j'étais intervenant à la CCI de l'Aude (11000).
 
 ![Mockup de l'application progressive](/img/mockup-pwa-weather.jpg)
