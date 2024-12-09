@@ -1,14 +1,14 @@
-# Sylvain Pastor
-
-**Développeur Web spécialisé en JavaScript et TypeScript**
-
----
+# Développeur Web spécialisé en JavaScript et TypeScript
 
 ## Présentation
 
-Passionné par la création d'applications intuitives et utiles, je m'efforce de résoudre des problèmes réels et de simplifier la vie des utilisateurs. Spécialisé en JavaScript et TypeScript, tant pour le frontend que pour le backend, je suis également flexible et capable de m'adapter à divers environnements techniques.
+Je suis développeur web indépendant avec plus de 10 ans d'expérience, spécialisé dans la création de solutions digitales sur mesure. Mon expertise se concentre sur Ruby on Rails pour des projets stables et évolutifs, et sur JavaScript/TypeScript pour des expériences interactives et créatives.
 
-En plus de créer des applications, j'ai une passion pour la formation, le partage de connaissances et l'open source. J'aime aider les autres à développer leurs compétences et à atteindre leurs objectifs professionnels.
+Que vous soyez une startup, une PME ou une TPE, je vous accompagne dans la conception et le développement de plateformes web performantes, qu’il s’agisse d’une application SaaS, d’un site vitrine ou d’une expérience immersive en 3D.
+
+Au-delà de la technique, je m’investis comme un véritable partenaire pour votre projet, avec une vision business qui maximise son impact. Mon objectif : transformer vos idées en un produit concret, innovant, et adapté à vos besoins.
+
+Travaillons ensemble pour donner vie à votre vision. 🚀
 
 ## Compétences
 

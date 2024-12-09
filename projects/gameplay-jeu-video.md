@@ -1,4 +1,6 @@
 ---
+sidebar: false
+featured: true
 title: Gameplay de base d'un jeu vidéo
 description: Projet fun dans lequel il est question de s'amuser avec la librairie Threejs et de copier un concept de jeu existant.
 img: mockup-pwa-weather.jpg

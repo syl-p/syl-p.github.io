@@ -1,8 +1,8 @@
 ---
+sidebar: false
 title: Easy music key
 description: easy-music-key-react est une interface permettant aux musiciens d'apprendre et de maîtriser les notions simples d'harmonie.
 img: easy-music-key-screen.jpeg
-featured: true
 link: https://github.com/syl-p/easy-music-key
 tags:
   - vue 3
