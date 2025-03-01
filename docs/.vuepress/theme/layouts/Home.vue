@@ -73,6 +73,9 @@
                 <a target="_blank" href="https://www.beproject.fr/"
                   ><img src="../../public/img/beproject.png"
                 /></a>
+                <a target="_blank" href="https://www.atnos.com/"
+                  ><img src="../../public/img/logo_atnos.svg"
+                /></a>
               </div>
             </div>
           </aside>

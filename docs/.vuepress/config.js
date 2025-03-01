@@ -3,6 +3,9 @@ module.exports = {
   description:
     "Développeur et Consultant Web Freelance. L'indépendant qui ne vous laissera jamais seul !",
   base: "",
+  markdown: {
+    anchor: { permalink: false },
+  },
   head: [
     [
       "link",
