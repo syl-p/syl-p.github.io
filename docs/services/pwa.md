@@ -1,4 +1,4 @@
-# Développement d'Applications Web Progressives
+# Applications progressives
 
 Profitez de cette méthodologie de développement logiciel innovante pour créer simultanément une page web et une application mobile performantes.
 
@@ -58,4 +58,3 @@ Adoptez les Applications Web Progressives pour offrir à vos utilisateurs une ex
 
 [Obtenez une estimation](/contact)
 ::contentReference[oaicite:0]{index=0}
- 

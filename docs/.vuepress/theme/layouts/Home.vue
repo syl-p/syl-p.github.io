@@ -32,8 +32,8 @@
           data-aos-duration="1000"
         >
           <h2>
-            Pastor Sylvain, le développeur Web Indépendant <br />
-            qui ne vous laissera jamais seul !
+            Bien plus que du code,<br />
+            un accompagnement sur mesure pour vos projets
           </h2>
         </header>
 

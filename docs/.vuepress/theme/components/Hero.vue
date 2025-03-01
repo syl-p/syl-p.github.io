@@ -12,10 +12,7 @@ export default {
   data() {
     return {
       options: {
-        strings: [
-          "Développeur web Freelance",
-          "à Carcassonne (11000 Aude)!",
-        ],
+        strings: ["Développeur web Freelance", "à Carcassonne (11000 Aude)!"],
         typeSpeed: 50,
         loop: true,
       },
@@ -39,7 +36,7 @@ export default {
   align-content: center;
   justify-content: center;
   height: 50vh;
-  
+
   h1 {
     font-size: 50px;
     font-weight: 600;
