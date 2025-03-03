@@ -28,9 +28,7 @@
   </Wrapper>
 </template>
 <script>
-import {
-  resolveSidebarItems,
-} from "../util";
+import { resolveSidebarItems } from "../util";
 import Wrapper from "../components/Wrapper.vue";
 import ShareLinks from "../components/ShareLinks";
 import Comments from "../components/Comments";
@@ -63,10 +61,7 @@ export default {
   },
 };
 </script>
-<style
-  src="../websylvain-styles/base/spectre/spectre.min.css"
-  lang="css"
-></style>
+<style src="../websylvain-styles/base/spectre/spectre.css" lang="css"></style>
 <style
   src="../websylvain-styles/base/spectre/spectre-icons.min.css"
   lang="css"

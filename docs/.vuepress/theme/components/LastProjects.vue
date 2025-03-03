@@ -7,6 +7,7 @@
       data-aos-duration="1000"
     >
       <a
+        class="preview"
         :href="p.path"
         :style="
           'background-image: url(' +
@@ -18,11 +19,13 @@
         <div class="index">
           {{ i + 1 }}
         </div>
-        <div class="detail">
-          <h3>{{ p.title }}</h3>
-          <p>{{ p.frontmatter.description }}</p>
-        </div>
       </a>
+      <div class="detail">
+        <h3>
+          <a :href="p.path">{{ p.title }}</a>
+        </h3>
+        <p>{{ p.frontmatter.description }}</p>
+      </div>
     </li>
   </ul>
 </template>
@@ -68,71 +71,22 @@ ul.project-list{
   li.project{
     list-style: none!important;
     margin-bottom: 135px;
-    a{
+    a.preview{
       width: 100%;
       display: block;
       height: 100%;
       opacity: 1;
-      height: 600px;
+      height: 300px;
       background-color: #1c1d25;
       position: relative;
       box-shadow: 0 20px 80px 0 rgba(0,0,0,.45);
       margin-left: auto;
       margin-right: auto;
+      margin-bottom: 25px;
       background-position: 50%;
       background-size: cover;
       background-repeat: no-repeat;
       transition: all .35s ease;
-
-      //MASK
-      .mask{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        z-index: 0;
-      }
-      .mask:after{
-        content: "";
-        position: absolute;
-        top: 0;
-        opacity: 1;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(28,29,37,.9);
-        //GRADIENT
-          background: linear-gradient(270deg,rgba(38,41,51,.9),rgba(16,27,59,.9));
-
-        -webkit-transform: translateX(-100%);
-        transform: translateX(-100%);
-        transition: opacity .2s,-webkit-transform .35s cubic-bezier(.694,.048,.335,1) .2s;
-        transition: transform .35s cubic-bezier(.694,.048,.335,1) .2s,opacity .2s;
-        transition: transform .35s cubic-bezier(.694,.048,.335,1) .2s,opacity .2s,-webkit-transform .35s cubic-bezier(.694,.048,.335,1) .2s;
-        z-index: 9;
-      }
-
-      //DETAIL
-      .detail{
-        position: absolute;
-        bottom: 90px;
-        left: -50px;
-        z-index: 10;
-        max-width: 550px;
-        -webkit-transform: scale(1) translateX(0);
-        transform: scale(1) translateX(0);
-        transition: opacity .25s,-webkit-transform .45s;
-        transition: transform .45s,opacity .25s;
-        transition: transform .45s,opacity .25s,-webkit-transform .45s;
-
-        h3{
-          font-weight: bold;
-          text-transform: uppercase;
-        }
-
-      }
 
       //INDEX
       .index{
@@ -151,29 +105,22 @@ ul.project-list{
         transition: opacity .3s,transform .45s cubic-bezier(.694,.048,.335,1),-webkit-transform .45s cubic-bezier(.694,.048,.335,1);
         z-index: 90;
       }
+    }
 
+    //DETAIL
+    .detail{
+      h3{
+        font-weight: bold;
+        text-transform: uppercase;
+      }
     }
 
     //ANIMATION
     &:hover{
-      a{
+      a.preview{
         box-shadow: 0 20px 80px 0 rgba(0,0,0,.65);
       }
-      .detail{
-        webkit-transform: scale(1.10);
-        transform: scale(1.10);
-      }
-
-      .mask:after{
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-      }
     }
-
-    &:nth-child(even) {
-      margin-top: 130px!important;
-    }
-
   }
 }
 
@@ -198,10 +145,6 @@ ul.project-list{
       margin-bottom : 80px!important;
       a {
         height: 400px!important;
-        .detail {
-          bottom: 40px!important;
-          left: -20px!important;
-        }
       }
     }
   }

@@ -1,10 +1,7 @@
 <template>
   <Wrapper :light="true">
     <section class="project">
-      <header
-        class="page-header"
-        :style=""
-      >
+      <header class="page-header" :style="">
         <div class="overlay_patern"></div>
         <div class="page-header-title">
           <ul class="breadcrumb">
@@ -60,9 +57,7 @@
             v-for="e in $page.frontmatter.listElements"
           >
             <div class="color">
-              <img
-              :src="$withBase('/img/' + e.img)"
-            >
+              <img :src="$withBase('/img/' + e.img)" />
             </div>
             <div class="palette-title">
               <h4>{{ e.name }}</h4>
@@ -97,10 +92,7 @@ export default {
 };
 </script>
 
-<style
-  src="../websylvain-styles/base/spectre/spectre.min.css"
-  lang="css"
-></style>
+<style src="../websylvain-styles/base/spectre/spectre.css" lang="css"></style>
 <style
   src="../websylvain-styles/base/spectre/spectre-icons.min.css"
   lang="css"
@@ -127,16 +119,18 @@ export default {
             transform: translate(-50%, -50%);
             -webkit-transform: translate(-50%, -50%);
             padding : 10%;
-
     .bottom_header
-        background-color: $main_color;
-        width: 100%;
-        margin: 0px 0px 130px 0px;
-        padding: 0% 10% 0% 10%;
-        p.column
-            margin-top :1.2rem;
-            span
-                text-transform : uppercase;
+      background-color: $text_color;
+      width: 100%;
+      margin: 0px 0px 130px 0px;
+      padding: 0% 10% 0% 10%;
+      color: white;
+      align-items: center;
+
+      p.column
+        margin-top :1.2rem;
+        span
+            text-transform : uppercase;
 
     .palette-list
         margin: 50px 0px 50px 0px;
@@ -153,7 +147,7 @@ export default {
                 border-radius: 50%;
                 overflow: hidden;
                 display: flex;
-                flex-direction: column;  
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 img

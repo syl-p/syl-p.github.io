@@ -1,99 +1,108 @@
 <template>
-  <main :class="{'navigation-is-open': nav, 'light': light}">
-    <Nav v-on:navAction="displayNav"/>
+  <main :class="{ 'navigation-is-open': nav, light: light }">
+    <Nav v-on:navAction="displayNav" />
     <section class="site-content">
       <div class="bck-page"></div>
-      <slot/>
-      <Footer/>
+      <slot />
+      <Footer />
     </section>
-    <RightSide/>
+    <RightSide />
   </main>
 </template>
 
 <script>
-import Vue from 'vue'
-import nprogress from 'nprogress'
-import Nav from '../Nav.vue'
-import RightSide from '../RightSide.vue'
-import Footer from '../Footer.vue'
-import { resolveSidebarItems } from '../util'
+import Vue from "vue";
+import nprogress from "nprogress";
+import Nav from "../Nav.vue";
+import RightSide from "../RightSide.vue";
+import Footer from "../Footer.vue";
+import { resolveSidebarItems } from "../util";
 export default {
   props: {
     light: {
       type: Boolean,
       default: false,
-    }
+    },
   },
-  data(){
+  data() {
     return {
       nav: false,
       isSidebarOpen: false,
-    }
+    };
   },
   components: {
-    Nav, RightSide, Footer, nprogress
+    Nav,
+    RightSide,
+    Footer,
+    nprogress,
   },
-  mounted () {
-    window.addEventListener('scroll', this.onScroll)
+  mounted() {
+    window.addEventListener("scroll", this.onScroll);
 
     // configure progress bar
-    nprogress.configure({ showSpinner: false })
+    nprogress.configure({ showSpinner: false });
 
     this.$router.beforeEach((to, from, next) => {
       if (to.path !== from.path && !Vue.component(to.name)) {
-        nprogress.start()
+        nprogress.start();
       }
-      next()
-    })
+      next();
+    });
 
     this.$router.afterEach(() => {
       this.isSidebarOpen = false;
-      nprogress.done()
+      nprogress.done();
       this.nav = false;
-    })
+    });
   },
-  methods:{
-    displayNav(){
+  methods: {
+    displayNav() {
       this.nav = !this.nav;
-    }
+    },
   },
-  computed:{
-    shouldShowSidebar () {
-      const { frontmatter } = this.$page
+  computed: {
+    shouldShowSidebar() {
+      const { frontmatter } = this.$page;
       return (
         !frontmatter.layout &&
         !frontmatter.home &&
         frontmatter.sidebar !== false &&
         this.sidebarItems.length
-      )
+      );
     },
-    sidebarItems () {
+    sidebarItems() {
       return resolveSidebarItems(
         this.$page,
         this.$route,
         this.$site,
         this.$localePath
-      )
+      );
     },
-    pageClasses () {
-      const userPageClass = this.$page.frontmatter.pageClass
+    pageClasses() {
+      const userPageClass = this.$page.frontmatter.pageClass;
       return [
         {
-          'no-navbar': !this.shouldShowNavbar,
-          'sidebar-open': this.isSidebarOpen,
-          'no-sidebar': !this.shouldShowSidebar
+          "no-navbar": !this.shouldShowNavbar,
+          "sidebar-open": this.isSidebarOpen,
+          "no-sidebar": !this.shouldShowSidebar,
         },
-        userPageClass
-      ]
-    }
-  }
-}
+        userPageClass,
+      ];
+    },
+  },
+};
 </script>
 
 <style src="prismjs/themes/prism-tomorrow.css"></style>
-<style src="../websylvain-styles/base/spectre/spectre.min.css" lang="css"></style>
-<style src="../websylvain-styles/base/spectre/spectre-icons.min.css" lang="css"></style>
-<style src="../websylvain-styles/base/spectre/spectre-exp.min.css" lang="css"></style>
+<style src="../websylvain-styles/base/spectre/spectre.css" lang="css"></style>
+<style
+  src="../websylvain-styles/base/spectre/spectre-icons.min.css"
+  lang="css"
+></style>
+<style
+  src="../websylvain-styles/base/spectre/spectre-exp.min.css"
+  lang="css"
+></style>
 <style src="../websylvain-styles/app.styl" lang="stylus"></style>
 
 <style lang="stylus">
