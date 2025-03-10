@@ -52,10 +52,6 @@ const links = [
     to: "/portfolio",
   },
   {
-    label: "Blog",
-    to: "/blog",
-  },
-  {
     label: "Contact",
     to: "/contact",
   },
