@@ -1,0 +1,21 @@
+---
+clients:
+  - name: "Les Autres"
+    link: "http://agence-lesautres.com/"
+    logo: "logo-lesautres.png"
+  - name: "Midiscom"
+    link: "http://midis.com/"
+    logo: "logo-midiscom.png"
+  - name: "Département de l'Aude"
+    link: "http://www.aude.fr/"
+    logo: "logo-dep-aude.png"
+  - name: "Be project"
+    link: "https://www.beproject.fr/"
+    logo: "logo_beproject.png"
+  - name: "Cité de Carcassonne"
+    link: "http://citedecarcassonne.org/"
+    logo: "logo-cite-carcassonne.png"
+  - name: "Atnos"
+    link: "https://www.atnos.com/"
+    logo: "logo_atnos.svg"
+---
