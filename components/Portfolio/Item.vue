@@ -5,10 +5,14 @@
   >
     <NuxtLink
       :to="item._path"
-      class="block w-8/12 overflow-hidden rounded-full"
+      class="block w-8/12 overflow-hidden rounded-full shadow-xl border"
     >
       <img
-        :src="'https://picsum.photos/700/400?random=' + index"
+        :src="
+          item.featured
+            ? 'img/portfolio/' + item.featured
+            : 'https://picsum.photos/700/400?random=' + index
+        "
         :alt="item.title"
         class="h-full max-h-[300px] w-full object-cover"
       />

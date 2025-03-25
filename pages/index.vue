@@ -136,7 +136,7 @@
               />
               <text font-size="13">
                 <textPath href="#curve">
-                  CREATIVE • DEVELOPER • CREATIVE •
+                  DEVELOPPEMENT • WEB • FULLSTACK •
                 </textPath>
               </text>
             </svg>
@@ -238,7 +238,7 @@
     <section class="py-10">
       <header class="border-b pb-10 mb-12">
         <h2 class="uppercase text-3xl md:text-6xl">
-          Nos <span class="text-primary">projets</span>
+          Discutons <span class="text-primary">ensemble</span>
         </h2>
         <p>
           N'hésitez pas à me contacter pour que nous étudions ensemble votre
