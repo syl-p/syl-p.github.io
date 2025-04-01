@@ -1,6 +1,6 @@
 <template>
   <UContainer class="my-10">
-    <div class="prose w-full mb-6">
+    <div class="prose dark:prose-invert w-full mb-6">
       <slot />
     </div>
     <ul class="flex space-x-6">

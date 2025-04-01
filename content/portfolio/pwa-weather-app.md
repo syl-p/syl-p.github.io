@@ -15,7 +15,18 @@ stack:
 
 L'enjeu des P.W.A ( pour progressive web app) n'est plus une simple légende... Nous sommes aujourd'hui capable de proposer aux utilisateurs [l'expérience d'une application native grâce au technologies web](https://websylvain.com/dev/progressive/webapp/technologies/progressive-web-apps)
 
-L'application météo est parfait pour répondre à cet objectif, en effet plusieurs spécificités sont necessaires à son bon fonctionnement. Elle doit être conforme aux recommandation faite par google quant au P.W.A.
+L'application météo est parfait pour répondre à cet objectif, en effet plusieurs spécificités sont necessaires à son bon fonctionnement. 
+::
+
+
+::portfolio-separator
+![alt text](/img/portfolio/pwa-weather/screen-pwa-weather-app.jpg)
+::
+
+
+::portfolio-about
+
+Elle doit être conforme aux recommandation faite par google quant au P.W.A.
 
 **App Like et responsive**: L' application doit avoir un design et une expérience d'usage similaire à une application native. Bien entendu, elle doit aussi s'adapter automatique à la taille de l'écran sur lequelle elle est consultée.
 
@@ -30,6 +41,12 @@ L'application météo est parfait pour répondre à cet objectif, en effet plusi
 **Benefit From Native Features**: Elle doit être capable de fournir à l'utilisateur les informations météorologique de l'endroit où il se trouve grâce a la fonction GPS de son support mobile (téléphone, tablette, laptop...).
 
 ::
+
+
+::portfolio-separator
+![alt text](/img/portfolio/pwa-weather/mockup-pwa-weather-app.png)
+::
+
 
 ::portfolio-stack{:stack="stack"}
 
