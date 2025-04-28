@@ -1,7 +1,8 @@
 <template>
-  <footer class="backdrop-blur border-b border-gray-200 dark:border-gray-800 -mb-px sticky top-0 z-50 lg:!border-transparent bg-gray-50 dark:bg-gray-950 py-6">
-    <UContainer  :ui="{constrained: 'max-w-screen-2xl'}">
-      <p class="text-center">Made by websylvain with ❤️</p>
-    </UContainer>
-  </footer>
+  <UContainer :ui="{ constrained: 'max-w-screen-2xl' }">
+    <div class="border-t border-neutral-100/5 py-4 flex flex-col items-center lg:flex-row lg:items-center lg:justify-between">
+      <SocialList />
+      <p class="text-neutral-500 mt-4 lg:mt-0"> Developed by Sylvain Pastor, All right reserved </p>
+    </div>
+  </UContainer>
 </template>

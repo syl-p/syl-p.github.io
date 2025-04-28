@@ -31,7 +31,7 @@ const items = [
   },
   {
     label: "Projets",
-    to: "/projects",
+    to: "/portfolio",
   },
   {
     label: page.value.title,
