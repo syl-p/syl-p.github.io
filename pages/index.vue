@@ -55,7 +55,7 @@
   </section>
 
   <UContainer :ui="{ constrained: 'max-w-screen-2xl' }">
-    <section class="py-16">
+    <section class="py-16" id="projects">
       <header class="mb-6">
         <h2 class="uppercase font-bold text-3xl md:text-6xl">
           Mes <span class="text-primary">projets</span>
@@ -66,13 +66,13 @@
           <PortfolioItem :item="project" :index="index" />
         </li>
       </ul>
-      <div class="flex justify-center mt-10">
+      <!-- <div class="flex justify-center mt-10">
         <UButton to="/portfolio" class="py-3 px-4 uppercase font-mono"
           >Voir plus de projets</UButton
         >
-      </div>
+      </div> -->
     </section>
-    <section class="py-10">
+    <section class="py-10" id="contact">
       <header class="pb-10 mb-6">
         <h2 class="uppercase font-bold text-4xl md:text-6xl text-center">
           Travaillons <span class="text-primary">ensemble</span>

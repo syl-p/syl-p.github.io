@@ -2,6 +2,7 @@
 title: Easy Music Key
 description: Application web pour musicien
 featured: easy-music-key/easy-music-key-screen.jpeg
+external_link: https://syl-p.github.io/easy-music-key/
 stack:
   - vuejs
   - typescript

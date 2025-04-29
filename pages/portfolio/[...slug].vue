@@ -1,17 +1,12 @@
 <template>
-  <header class="bg-primary/10 text-secondary mb-6 py-24 relative">
-    <img
-        :src="'/img/portfolio/' + page.featured"
-        alt="Portfolio hero image"
-        class="absolute inset-0 object-cover w-full h-full opacity-30 -z-10"
-      />
+  <header class="bg-primary/50 text-secondary mb-10 py-20">
       <UContainer class="py-24 z-10">
         <UBreadcrumb :links="items" />
         <div>
-          <h1 class="text-3xl md:text-5xl leading-tight text-primary">
+          <h1 class="text-3xl md:text-5xl leading-tight text-white font-bold">
             {{ page.title }}
           </h1>
-          <p class="text-3xl md:text-5xl leading-tight text-white">
+          <p class="text-xl leading-tight text-white">
             {{ page.description }}
           </p>
         </div>
@@ -26,12 +21,12 @@
 const { page } = useContent();
 const items = [
   {
-    label: "Home",
+    label: "Accueil",
     to: "/",
   },
   {
-    label: "Projets",
-    to: "/portfolio",
+    label: "Portfolio",
+    to: "/#projects",
   },
   {
     label: page.value.title,

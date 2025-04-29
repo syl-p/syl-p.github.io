@@ -21,20 +21,12 @@
 const opened = ref(false);
 const links = [
   {
-    label: "Nos services",
-    to: "/services",
-  },
-  {
-    label: "Développement web",
-    to: "/web-dev",
-  },
-  {
-    label: "Portfolio",
-    to: "/portfolio",
+    label: "Accueil",
+    to: "/",
   },
   {
     label: "Contact",
-    to: "/contact",
+    to: "/#contact",
   },
 ];
 </script>
