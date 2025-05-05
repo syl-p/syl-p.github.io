@@ -1,5 +1,4 @@
 <template>
-  <AppHeader />
   <main class="min-h-full mb-6">
     <NuxtLayout>
       <NuxtPage />
@@ -7,5 +6,4 @@
   </main>
   <AppFooter />
 </template>
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>

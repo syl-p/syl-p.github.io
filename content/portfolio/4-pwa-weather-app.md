@@ -1,6 +1,6 @@
 ---
 title: Application web progressive Météo
-description: Visitez la cité de Carcassonne dans sa version web 3D
+description: Visitez la cité de Carcassonne dans sa version web 3D. Il s'agit d'un travail dirigé pour les étudiants du centre de formation de Carcassonne. Le projet a été réalisé en 2018.
 featured: pwa-weather/mockup-pwa-weather.jpg
 stack:
   - vuejs
@@ -15,14 +15,12 @@ stack:
 
 L'enjeu des P.W.A ( pour progressive web app) n'est plus une simple légende... Nous sommes aujourd'hui capable de proposer aux utilisateurs [l'expérience d'une application native grâce au technologies web](https://websylvain.com/dev/progressive/webapp/technologies/progressive-web-apps)
 
-L'application météo est parfait pour répondre à cet objectif, en effet plusieurs spécificités sont necessaires à son bon fonctionnement. 
+L'application météo est parfait pour répondre à cet objectif, en effet plusieurs spécificités sont necessaires à son bon fonctionnement.
 ::
-
 
 ::portfolio-separator
 ![alt text](/img/portfolio/pwa-weather/screen-pwa-weather-app.jpg)
 ::
-
 
 ::portfolio-about
 
@@ -42,11 +40,9 @@ Elle doit être conforme aux recommandation faite par google quant au P.W.A.
 
 ::
 
-
 ::portfolio-separator
 ![alt text](/img/portfolio/pwa-weather/mockup-pwa-weather-app.png)
 ::
-
 
 ::portfolio-stack{:stack="stack"}
 

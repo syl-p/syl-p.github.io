@@ -1,6 +1,6 @@
 ---
 title: Site web 3D de la cité de Carcassonne
-description: Un site 3D collaboratif dédié à la cité de Carcassonne.
+description: Un site 3D collaboratif dédié à la cité de Carcassonne. Dont l'objectif est de Proposer une expérience ludique et collaborative pour (re)découvrir la cité autrement.⁣
 featured: cite-3d/cite-carca-3d-screen1.png
 external_link: http://188.213.28.161:36417
 stack:

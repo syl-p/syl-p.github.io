@@ -1,12 +1,6 @@
 <template>
-  <div
-    class="py-6 md:flex md:space-x-12 items-center"
-    :class="index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'"
-  >
-    <NuxtLink
-      :to="item._path"
-      class="md:block md:w-1/2"
-    >
+  <div class="p-6 border border-gray-200 rounded-lg shadow-lg">
+    <NuxtLink :to="item._path" class="block mb-6">
       <img
         :src="
           item.featured
@@ -14,11 +8,11 @@
             : 'https://picsum.photos/700/400?random=' + index
         "
         :alt="item.title"
-        class=" w-full object-cover rounded-lg shadow-lg mb-6 md:mb-0"
+        class="w-full object-cover rounded-lg mb-6 md:mb-0"
       />
     </NuxtLink>
     <div class="flex-1">
-      <h3 class="text-3xl font-bold">
+      <h3 class="text-xl font-bold">
         <NuxtLink :to="item._path">{{ item.title }}</NuxtLink>
       </h3>
       <p class="mb-3">{{ item.description }}</p>
