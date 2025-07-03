@@ -1,15 +1,17 @@
 <template>
-  <UCard class="rounded-3xl">
-    <h2 class="font-medium text-2xl">
-      <NuxtLink :to="service._path">{{ service.title }}</NuxtLink>
-    </h2>
-    <p>lorem ipsum dolor sit amet</p>
-    <template #header>
-      <img src="https://picsum.photos/500/300" class="w-full rounded-3xl" />
-    </template>
-  </UCard>
+  <div class="flex space-x-3 items-center">
+    <div>
+      <span class="text-4xl">{{index + 1}}</span>.
+    </div>
+    <div>
+      <h3 class="font-medium text-xl">
+        <NuxtLink :to="service._path">{{ service.title }}</NuxtLink>
+      </h3>
+      <p>lorem ipsum dolor sit amet</p>
+    </div>  
+  </div>
 </template>
 
 <script setup lang="ts">
-const { service } = defineProps(["service"]);
+const { service, index } = defineProps(["service", "index"]);
 </script>

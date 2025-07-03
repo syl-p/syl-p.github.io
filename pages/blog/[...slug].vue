@@ -4,8 +4,12 @@
       <UContainer class="pt-20 pb-10">
         <UBreadcrumb :links="items" />
         <div>
-          <h1 class="font-bold text-3xl leading-tight mb-3">{{page.title}}</h1>
-          <p class="leading-relaxed">{{page.description}}</p>
+          <h1 class="text-3xl mb-3 md:text-5xl leading-tight text-white font-bold">
+            {{ page.title }}
+          </h1>
+          <p class="leading-tight text-white">
+            {{ page.description }}
+          </p>
         </div>
       </UContainer>
     </header>
@@ -24,10 +28,10 @@ const items = [
     label: 'Home',
     to: '/'
   },
-  // {
-  //   label: 'Services',
-  //   to: '/services'
-  // },
+  {
+    label: 'Services',
+    to: '/services'
+  },
   {
     label: page.value.title,
   }

@@ -7,6 +7,8 @@ stack:
   - nuxtjs
   - threejs
   - typescript
+github_link: https://github.com/syl-p/progressive-weather-app
+external_link: https://syl-p.github.io/progressive-weather-app/
 ---
 
 ::portfolio-about

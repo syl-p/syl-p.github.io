@@ -1,39 +1,45 @@
-# Accompagnement et Formation
+---
+title: Accompagnement et formation
+---
 
-## Pourquoi Choisir Notre Accompagnement et Formation ?
+## Pourquoi choisir mon accompagnement et mes formations ?
 
-L'univers du développement web évolue rapidement, et il est essentiel de rester à jour avec les dernières technologies et pratiques. Grâce à notre service d'accompagnement et de formation, nous vous aidons à relever ces défis en vous offrant les outils, les compétences et les connaissances nécessaires pour réussir vos projets numériques.
+L'univers du développement web évolue rapidement, et il est essentiel de rester à jour avec les dernières technologies et pratiques. Grâce à mes services d’accompagnement et de formation, je vous aide à relever ces défis en vous transmettant les outils, les compétences et les connaissances nécessaires pour réussir vos projets numériques.
 
-### Nos Domaines d'Expertise
+### Mes domaines d'expertise
 
 - **Formation sur les technologies modernes** : Maîtrisez des frameworks comme Vue.js, React, Ruby on Rails, et bien d'autres.
-- **Accompagnement projet** : De l'idée initiale au déploiement, nous vous guidons à chaque étape.
-- **Optimisation des processus** : Apprenez à améliorer vos workflows et à intégrer des outils pour gagner en efficacité.
-- **Formation à la méthodologie Agile** : Développez vos projets en utilisant des approches agiles pour une meilleure collaboration et adaptation.
+- **Accompagnement projet** : De l'idée initiale au déploiement, je vous guide à chaque étape.
+- **Optimisation des processus** : Apprenez à améliorer vos workflows et à intégrer les bons outils pour gagner en efficacité.
+- **Formation à la méthodologie Agile** : Apprenez à piloter vos projets avec des approches agiles favorisant collaboration, réactivité et clarté.
 
-## Les Avantages de Notre Offre
+## Les avantages de mon accompagnement
 
-### 1. Formation Personnalisée
-Nous adaptons nos sessions de formation en fonction de vos besoins spécifiques et de votre niveau de compétence, que vous soyez un débutant ou un professionnel confirmé.
+### 1. Formation personnalisée
 
-### 2. Expertise Reconnaissable
-Avec plusieurs années d'expérience dans des projets variés, nous vous apportons une expertise concrète et applicable immédiatement.
+Je construis chaque session en fonction de vos besoins spécifiques et de votre niveau de compétence — que vous soyez débutant ou développeur confirmé.
 
-### 3. Accompagnement Pratique
-Au-delà des concepts théoriques, nous travaillons sur des cas réels pour vous permettre de développer des compétences directement applicables.
+### 2. Expertise concrète
 
-### 4. Outils Modernes et Approches Innovantes
-Découvrez les outils et méthodologies les plus récents pour maximiser la performance et la productivité de vos projets.
+Avec plusieurs années d'expérience sur des projets variés, je vous apporte une vision pragmatique, directement applicable à vos problématiques techniques et organisationnelles.
 
-## Nos Services d'Accompagnement et de Formation
+### 3. Accompagnement pratique
 
-- **Sessions de formation sur mesure** : En groupe ou individuelles, en présentiel ou à distance.
-- **Ateliers pratiques** : Travaillez sur vos projets réels avec l’aide de nos experts.
-- **Consultation technologique** : Bénéficiez de conseils pour choisir les outils et technologies adaptés à vos objectifs.
-- **Support continu** : Restez accompagné même après la formation grâce à notre suivi dédié.
+Au-delà de la théorie, je privilégie les cas réels et les mises en situation concrètes pour que vous puissiez progresser rapidement et efficacement.
 
-## Un Parcours Vers l'Excellence Numérique
+### 4. Outils modernes et méthodologies actuelles
 
-En investissant dans notre programme d’accompagnement et de formation, vous vous donnez les moyens de maîtriser des compétences clés, de gagner en confiance, et d’exceller dans vos projets. Nous nous engageons à vous transmettre les meilleures pratiques et à vous aider à développer une vision stratégique pour vos projets.
+Je vous fais découvrir les outils les plus récents (CI/CD, tests automatisés, Tailwind, Hotwire…) et les approches qui ont fait leurs preuves sur le terrain.
 
-**[Contactez-nous](#) pour plus d'informations et pour planifier une formation adaptée à vos besoins.**
+## Mes services d'accompagnement et de formation
+
+- **Sessions de formation sur mesure** : En groupe ou en individuel, à distance ou en présentiel.
+- **Ateliers pratiques** : Travaillez directement sur vos projets, avec mon aide technique et stratégique.
+- **Consultation technologique** : Je vous accompagne dans vos choix d’outils, de stack ou d’architecture technique.
+- **Support continu** : Même après la formation, je reste disponible pour répondre à vos questions ou vous débloquer si besoin.
+
+## Un parcours vers l'autonomie numérique
+
+En investissant dans ce type de formation ou d’accompagnement, vous gagnez du temps, de la clarté et de la maîtrise. Mon objectif : vous rendre autonome, confiant, et capable de prendre les bonnes décisions pour vos projets web.
+
+**[Contactez-moi](#) pour en savoir plus ou planifier une session adaptée à vos besoins.**

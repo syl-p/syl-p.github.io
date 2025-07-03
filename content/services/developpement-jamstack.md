@@ -1,7 +1,8 @@
-# Développement Jamstack
+---
+title: Dévelopment Jamstack
+---
 
 Nos développeurs Jamstack vous aideront à créer un site web, une application ou une boutique en ligne en utilisant une approche qui vous offre plus d'agilité et de possibilités pour réaliser vos objectifs.
-
 
 ## Construire des Applications Modernes avec Jamstack
 
@@ -45,4 +46,3 @@ Nous fournissons des services de développement Jamstack de premier ordre, offra
 - **Support pour les Projets Jamstack** : Assurez la qualité continue de votre produit avec nos services DevOps, QA et de maintenance.
 - **Stratégie de Marketing de Contenu Jamstack** : Générez du trafic vers votre site web et classez-vous en haut des résultats de recherche avec un contenu percutant et optimisé pour le SEO.
   ::contentReference[oaicite:0]{index=0}
- 

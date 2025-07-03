@@ -3,6 +3,7 @@ title: Easy Music Key
 description: Application web pour musicien permettant de visualiser les modes et degrés d'une tonalité.
 featured: easy-music-key/easy-music-key-screen.jpeg
 external_link: https://syl-p.github.io/easy-music-key/
+github_link: https://github.com/syl-p/easy-music-key/
 stack:
   - vuejs
   - typescript
